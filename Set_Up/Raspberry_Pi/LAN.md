@@ -52,7 +52,11 @@ You should be connected physically via an ethernet cable. This should show as "W
 sudo nmcli connection modify "Wired connection 1" ipv4.addresses 192.168.1.3/24 ipv4.method manual
 sudo nmcli connection up "Wired connection 1"
 ```
-Upon completion, the terminal should resturn feedback indicating a successful activation.
+Upon completion, the terminal should resturn feedback indicating a successful activation. However, each time the computer restarts or the cable is unplugged, it will need to be restarted. If you have previously configured the IPv4 address, you only need to run:
+```
+sudo nmcli connection up "Wired connection 1"
+```
+The output should show "Connection successfully activated" 
 
 ### Raspberry Pi
 On the Raspberry Pi, run:
