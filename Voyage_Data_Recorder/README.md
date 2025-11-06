@@ -3,10 +3,12 @@ Similar to aircraft storing all flight logs and data in a black box recorder, ve
 
 There are various kinds of Voyage Data Recorders. Common variations are pictured below:
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/d03918ca-a801-491b-9b25-51611b1aaae2" width="45%" />
-  <img src="https://github.com/user-attachments/assets/02951109-45ff-4d6b-8066-e3998e3c4172" width="45%" />
-</div>
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/d03918ca-a801-491b-9b25-51611b1aaae2" width="500"/></td>
+    <td><img src="https://github.com/user-attachments/assets/02951109-45ff-4d6b-8066-e3998e3c4172" width="500"/></td>
+  </tr>
+</table>
 
 The Voyage Data Recorder uses proprietary software to organize collected NMEA data into precise time-based groupings. This system ensures that navigational, sensor, and communication information are synchronized accurately, allowing investigators to reconstruct events in chronological order and analyze vessel performance, communications, and incidents with high accuracy.
 
